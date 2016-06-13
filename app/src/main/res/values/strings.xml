@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RepasoPro</string>
+    <string name="Btn_Aceptar">Aceptar</string>
+    <string name="ventana">Segunda actividad</string>
+    <string name="Btn_Ir">Ir a la siguiente Actividad</string>
+    <string name="Hint_Dato">Insertar Dato Aqui</string>
+    <string name="title_activity_actividad_trcra">ActividadTrcra</string>
+    <string name="Rbtn01">Primero</string>
+    <string name="Rbtn02">Segundo</string>
+    <string name="Rbtn03">Tercero</string>
+    <string name="ToglBtnON">ON Seleccionado</string>
+    <string name="ToglBtnOFF">OFF NO Seleccionado</string>
+</resources>

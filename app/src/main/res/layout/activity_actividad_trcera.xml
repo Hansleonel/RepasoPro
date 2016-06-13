@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.kandskat.repasopro.ActividadTrcera">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:id="@+id/Txt_Saludo_Tercera_Actividad"/>
+
+    <!--
+    Recuerda usar @string para los textos
+    Recuerda darle id a todos los elementos para relacionarlos posteriorment
+    Recuerda que si usas un RADIO GROUP los Radio Buttons deben de estar agrupados
+    Dentro de dicho RADIO GROUP
+    -->
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RadioGroup_01">
+
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Rbtn01"
+        android:id="@+id/Rbtn_01_G01"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Rbtn02"
+        android:id="@+id/Rbtn_02_G01"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Rbtn03"
+        android:id="@+id/Rbtn_03_G01"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Btn_Aceptar_Tercera_Actividad"
+        android:text="@string/Btn_Ir"/>
+
+
+
+</LinearLayout>
